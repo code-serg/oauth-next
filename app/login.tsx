@@ -7,9 +7,6 @@ export default function Login() {
   // get session from nextAuth
   // useSession uses react
   const { data: session, status } = useSession();
-  console.log(`in login.tsx: ${session}`);
-  console.log(`in login.tsx:`);
-  console.log({useSession});
 
   if (status === "loading") {
     return <div>Loading...</div>;
@@ -21,7 +18,9 @@ export default function Login() {
   if(session) {
     return (
       <>    
-        <button className="btn btn-primary" onClick={() => signOut()}>Sign out of Google</button>
+        <div className="d-flex justify-content-center p-2">
+          <button className="btn btn-primary" onClick={() => signOut()}>Sign out of Google</button>
+        </div>
         {/* Pass session info to server component. This will save the user's info */}
         <UserCard user={session?.user} />
       </>
@@ -30,7 +29,9 @@ export default function Login() {
     {/* if no session, show a login button */}
     return (
       <>
-        <button className="btn btn-primary" onClick={() => signIn()}>Sign in with Google</button>
+        <div className="d-flex justify-content-center p-2">
+          <button className="btn btn-primary" onClick={() => signIn()}>Sign in with Google</button>
+        </div>
       </> 
     )
   }
