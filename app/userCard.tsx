@@ -10,7 +10,6 @@ export function UserCard( { user }: { user: DefaultSession["user"] } ) {
         <h5 className="card-title">{user?.name}</h5>
         <h6 className="card-subtitle mb-2 text-muted">{user?.email}</h6>
         <p className="card-text">Hello</p>
-          website
           {user?.image}
       </div>
     </div>

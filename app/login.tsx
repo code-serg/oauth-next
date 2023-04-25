@@ -14,6 +14,8 @@ export default function Login() {
   if (status === "loading") {
     return <div>Loading...</div>;
   }
+
+  console.log(session);
   
   // if session exists, show their profile and a logout button
   if(session) {
