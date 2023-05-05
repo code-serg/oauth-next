@@ -19,7 +19,7 @@ export default function Login() {
     return (
       <>    
         <div className="d-flex justify-content-center p-2">
-          <button className="btn btn-primary" onClick={() => signOut()}>Sign out of Google</button>
+          <button className="btn btn-primary" onClick={() => signOut()}>Sign Out</button>
         </div>
         {/* Pass session info to server component. This will save the user's info */}
         <UserCard user={session?.user} />
@@ -30,7 +30,7 @@ export default function Login() {
     return (
       <>
         <div className="d-flex justify-content-center p-2">
-          <button className="btn btn-primary" onClick={() => signIn()}>Sign in with Google</button>
+          <button className="btn btn-primary me-2" onClick={() => signIn()}>Sign In</button>
         </div>
       </> 
     )
