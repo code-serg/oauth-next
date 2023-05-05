@@ -12,7 +12,7 @@ export default function Login() {
     return <div>Loading...</div>;
   }
 
-  console.log(session);
+  // console.log(session);
   
   // if session exists, show their profile and a logout button
   if(session) {
