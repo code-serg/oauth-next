@@ -1,7 +1,7 @@
 
 
 <div style="background-color: #0D1526; display: flex; justify-content: center; align-items: center; padding: 10px; margin-bottom: 10px">
-  <img src="./public/cs-logo-002.png" width="50" alt="logo">
+  <img src="./public/cs-logo-003.png" width="50" alt="logo">
 </div>
 
 # Next.js 13 - OAuth with Google and GitHub
@@ -69,8 +69,8 @@ yarn dev
 
 
 ## Acknowledgments / References
-  * [https://www.youtube.com/watch?v=6lCXM11Tgyg] (Next.js 13 Google Login (NextAuth V4 / TypeScript Tutorial) by Cooper Codes)
-  * [https://next-auth.js.org/configuration/initialization#route-handlers-app]
-  * [https://console.cloud.google.com/]
-  * [https://github.com/settings/developers]
+  * [Next.js 13 Google Login (NextAuth V4 / TypeScript Tutorial) by Cooper Codes](https://www.youtube.com/watch?v=6lCXM11Tgyg) - Thank you!
+  * https://next-auth.js.org/configuration/initialization#route-handlers-app
+  * https://console.cloud.google.com/
+  * https://github.com/settings/developers
 
