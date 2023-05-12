@@ -10,10 +10,15 @@
 A simple implementation of OAuth authentication on Next.js 13. 
 Login with either Google or Github and get the user session data.
 
+## Version
+![](https://img.shields.io/badge/next.js-13.3.1-orange)
+![](https://img.shields.io/badge/next--auth-^4.22.1-orange)
+![](https://img.shields.io/badge/react-18.2.0-blue)
+
 ## API Credentials
 The app uses Google and Github as OAuth providers.
 1. Setup Google Cloud at https://console.cloud.google.com/
-   * Create new project and select it
+    * Create new project and select it
     * Search / navigate to "OAuth consent screen" > select "External" and create
       * Input app name and contact/developer email
       * Scope:Add auth/userinfo/email and auth/userinfo/profile
@@ -83,3 +88,4 @@ yarn dev
 ![GitHub repo size](https://img.shields.io/github/repo-size/code-serg/oauth-next)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/code-serg/oauth-next)
+
