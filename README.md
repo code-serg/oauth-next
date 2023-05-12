@@ -5,17 +5,17 @@
 <div style="background-color: #0D1526; display: flex; justify-content: center; align-items: center; padding: 10px; margin-bottom: 10px">
   <p align="center">
     <img src="./public/cs-logo-003.png" width="50" alt="logo">
+
   </p>
-</div>
+  <p align="center">
+    <img src="https://img.shields.io/badge/next.js-13.3.1-orange" alt="next.js-version">
+    <img src="https://img.shields.io/badge/next--auth-^4.22.1-green" alt="next-auth-version">
+    <img src="https://img.shields.io/badge/react-18.2.0-blue" alt="react-version">
+  </p>
 
 # Next.js 13 - OAuth with Google and GitHub
 A simple implementation of OAuth authentication on Next.js 13. 
 Login with either Google or Github and get the user session data.
-
-## Version
-![](https://img.shields.io/badge/next.js-13.3.1-orange)
-![](https://img.shields.io/badge/next--auth-^4.22.1-orange)
-![](https://img.shields.io/badge/react-18.2.0-blue)
 
 ## API Credentials
 The app uses Google and Github as OAuth providers.
@@ -86,8 +86,6 @@ yarn dev
 ***
 ## Repo Info
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/code-serg/oauth-next)
-
 ![GitHub repo size](https://img.shields.io/github/repo-size/code-serg/oauth-next)
-
 ![GitHub last commit](https://img.shields.io/github/last-commit/code-serg/oauth-next)
 
