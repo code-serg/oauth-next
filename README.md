@@ -1,5 +1,7 @@
 
 
+
+
 <div style="background-color: #0D1526; display: flex; justify-content: center; align-items: center; padding: 10px; margin-bottom: 10px">
   <img src="./public/cs-logo-003.png" width="50" alt="logo">
 </div>
@@ -74,3 +76,10 @@ yarn dev
   * https://console.cloud.google.com/
   * https://github.com/settings/developers
 
+***
+## Repo Info
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/code-serg/oauth-next)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/code-serg/oauth-next)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/code-serg/oauth-next)
