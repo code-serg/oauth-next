@@ -3,7 +3,9 @@
 
 
 <div style="background-color: #0D1526; display: flex; justify-content: center; align-items: center; padding: 10px; margin-bottom: 10px">
-  <img src="./public/cs-logo-003.png" width="50" alt="logo">
+  <p align="center">
+    <img src="./public/cs-logo-003.png" width="50" alt="logo">
+  </p>
 </div>
 
 # Next.js 13 - OAuth with Google and GitHub
