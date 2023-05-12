@@ -8,9 +8,10 @@
 
   </p>
   <p align="center">
-    <img src="https://img.shields.io/badge/next.js-13.3.1-orange" alt="next.js-version">
-    <img src="https://img.shields.io/badge/next--auth-^4.22.1-green" alt="next-auth-version">
-    <img src="https://img.shields.io/badge/react-18.2.0-blue" alt="react-version">
+    <img src="https://img.shields.io/github/package-json/dependency-version/code-serg/oauth-next/next?color=blueviolet" alt="next.js-version">
+    <img src="https://img.shields.io/github/package-json/dependency-version/code-serg/oauth-next/next-auth?color=brgreen" alt="next-auth-version">
+    <img src="https://img.shields.io/github/package-json/dependency-version/code-serg/oauth-next/react" alt="react-version">
+    <img src="https://img.shields.io/github/package-json/dependency-version/code-serg/oauth-next/typescript?color=yellow" alt="typescript-version">
   </p>
 
 # Next.js 13 - OAuth with Google and GitHub
