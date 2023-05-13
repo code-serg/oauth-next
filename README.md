@@ -18,7 +18,7 @@
 A simple implementation of OAuth authentication on Next.js 13. 
 Login with either Google or Github and get the user session data.
 
-## API Credentials
+## App Credentials From Google and GitHub
 The app uses Google and Github as OAuth providers.
 1. Setup Google Cloud at https://console.cloud.google.com/
     * Create new project and select it
